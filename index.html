@@ -18,30 +18,41 @@
 
 
     <header class="header">
-  <div class="menu">
-
-    <a class="logo" href="#">
-      <img class="logo__img" src="images/logo.svg" alt="logo">
-    </a>
-
-    <button type="button" class="menu__icon icon-menu">
-      <span></span>
-    </button>
-
-    <nav class="menu__body">
-      <ul class="menu__list">
-        <li class="menu__item">
-          <a class="menu__link active" data-goto=".section1" href="#">Section 1</a>
-        </li>
-        <li class="menu__item">
-          <span class="menu__arrow"></span>
-          <a class="menu__link" href="#">Submenu</a>
-          <ul class="menu__sublist">
-            <li class="menu__subitem"><a class="menu__sublink" href="#">Submenu1</a></li>
+  <div class="container">
+    <div class="header__inner">
+      <a class="logo" href="#">
+        <img class="logo__img" src="images/logo.svg" alt="logo" wigth="74" height="74">
+      </a>
+      <div class="menu">
+        <button type="button" class="menu__icon icon-menu">
+          <span></span>
+        </button>
+        <nav class="menu__body">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Episodes</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">About</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Blog</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Blog</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Blog</a>
+            </li>
           </ul>
-        </li>
-      </ul>
-    </nav>
+        </nav>
+      </div>
+
+      <div data-da=".menu__body,768,2" class="header__actions">
+        <a class="btn btn--small header__btn" href="#">recent episodes</a>
+        <a class="btn btn--small btn--dark header__btn" href="#">subscribe</a>
+      </div>
+    </div>
   </div>
 </header>
 
