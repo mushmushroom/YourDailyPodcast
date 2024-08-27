@@ -26,6 +26,7 @@
       <div class="menu">
         <button type="button" class="menu__icon icon-menu">
           <span></span>
+          <span class="sr-only">Mobile menu</span>
         </button>
         <nav class="menu__body">
           <ul class="menu__list">
@@ -41,7 +42,6 @@
           </ul>
         </nav>
       </div>
-
       <div data-da=".menu__body,768,2" class="header__actions">
         <a class="btn btn--small header__btn" href="#">recent episodes</a>
         <a class="btn btn--small btn--dark header__btn" href="#">subscribe</a>
@@ -66,7 +66,6 @@
             <a class="btn btn--dark" href="#">subscribe</a>
           </div>
         </div>
-
         <dl class="about-hero__list">
           <div class="about-hero__item">
             <dt>76<span>K</span></dt>
@@ -82,15 +81,10 @@
           </div>
         </dl>
       </div>
-
-
-
-
     </section>
 
     <section class="history section">
       <div class="container">
-
         <div class="history__title-block title-block">
           <div class="title-block__inner">
             <h2 class="title-block__title">What our listeners say</h2>
@@ -99,12 +93,9 @@
             </div>
           </div>
         </div>
-
         <img class="history__img" src="images/history-img.jpg" alt="Image">
-
         <div class="history__top">
           <h3 class="history__title history__title-top title-small">About and History</h3>
-
           <div class="history__text text">
             <p>
               Eu non <strong>diam</strong> phasellus vestibulum lorem. Fringilla est ullamcorper eget nulla facilisi
@@ -126,13 +117,10 @@
             <p>
               Viverra at porttitor accumsan. <a href="#">Orci non here</a>
             </p>
-
           </div>
         </div>
-
         <div class="history__bottom">
           <h3 class="history__title history__title-bottom title-small">Founder and Main Host</h3>
-
           <div class="history__inner">
             <article class="card-host">
   <img class="card-host__img" src="images/hosts/3.jpg" alt="Image">
@@ -152,12 +140,15 @@
       <span>follow me:</span>
       <div class="card-host__links">
         <a href="#">
+          <span class="sr-only">Tiktok</span>
           <img src="images/platform-icons/tiktok-color.svg" alt="Image">
         </a>
         <a href="#">
+          <span class="sr-only">Twitter</span>
           <img src="images/platform-icons/twitter-color.svg" alt="Image">
         </a>
         <a href="#">
+          <span class="sr-only">Instagram</span>
           <img src="images/platform-icons/instagram-color.svg" alt="Image">
         </a>
       </div>
@@ -182,12 +173,15 @@
       <span>follow me:</span>
       <div class="card-host__links">
         <a href="#">
+          <span class="sr-only">Tiktok</span>
           <img src="images/platform-icons/tiktok-color.svg" alt="Image">
         </a>
         <a href="#">
+          <span class="sr-only">Twitter</span>
           <img src="images/platform-icons/twitter-color.svg" alt="Image">
         </a>
         <a href="#">
+          <span class="sr-only">Instagram</span>
           <img src="images/platform-icons/instagram-color.svg" alt="Image">
         </a>
       </div>
@@ -196,8 +190,6 @@
 </article>
           </div>
         </div>
-
-
       </div>
     </section>
 
@@ -212,7 +204,6 @@
               </div>
             </div>
           </div>
-
           <div class="sponsors__swiper swiper">
             <div class="swiper-wrapper">
               <div class="sponsors__slide slide-sponsors swiper-slide">
@@ -225,7 +216,6 @@
                   </p>
                 </div>
               </div>
-
               <div class="sponsors__slide slide-sponsors swiper-slide">
                 <img class="slide-sponsors__img" src="images/platform-icons/spotify.svg" alt="Image">
                 <div class="slide-sponsors__text">
@@ -236,7 +226,6 @@
                   </p>
                 </div>
               </div>
-
               <div class="sponsors__slide slide-sponsors swiper-slide">
                 <img class="slide-sponsors__img" src="images/platform-icons/youtube.svg" alt="Image">
                 <div class="slide-sponsors__text">
@@ -247,7 +236,6 @@
                   </p>
                 </div>
               </div>
-
               <div class="sponsors__slide slide-sponsors swiper-slide">
                 <img class="slide-sponsors__img" src="images/platform-icons/spotify.svg" alt="Image">
                 <div class="slide-sponsors__text">
@@ -258,31 +246,23 @@
                   </p>
                 </div>
               </div>
-
-
-
-
-
-
-
             </div>
             <div class="sponsors__pagination">
+              <span class="sr-only">Previous slide</span>
               <div class="slider-arrow slider-arrow--prev sponsors__arrow slider-arrow sponsors__arrow--prev">
                 <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M8.88467 2.05811L1.91267 9.00011L8.88467 15.9421" stroke="black" stroke-width="2.5"
                     stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-
               </div>
               <div class="slider-arrow slider-arrow--next sponsors__arrow slider-arrow sponsors__arrow--next">
+                <span class="sr-only">Next slide</span>
                 <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M8.88467 2.05811L1.91267 9.00011L8.88467 15.9421" stroke="black" stroke-width="2.5"
                     stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -298,38 +278,34 @@
             </div>
           </div>
         </div>
-
         <form class="contact__form form-contact" action="#">
           <div class="form-contact__wrapper">
             <div class="form-contact__box">
-              <label class="form-contact__label" for="">Full name</label>
-              <input class="form-contact__input" type="text" id="" placeholder="Porter Sev|">
+              <label class="form-contact__label" for="[contact]name">Full name</label>
+              <input class="form-contact__input" type="text" id="[contact]name" name="[contact]name"
+                placeholder="Porter Sev|">
             </div>
-
-
             <div class="form-contact__box">
-              <label class="form-contact__label" for="">Email </label>
-              <input class="form-contact__input" type="text" id="" placeholder="johndoe@gmail.com">
+              <label class="form-contact__label" for="[contact]email">Email </label>
+              <input class="form-contact__input" type="text" id="[contact]email" name="[contact]email"
+                placeholder="johndoe@gmail.com">
             </div>
           </div>
-
-
           <div class="form-contact__wrapper">
-
             <div class="form-contact__box">
-              <label class="form-contact__label" for="">Phone </label>
-              <input class="form-contact__input" type="text" id="" placeholder="045***">
+              <label class="form-contact__label" for="[contact]phone">Phone</label>
+              <input class="form-contact__input" type="text" id="[contact]phone" name="[contact]phone"
+                placeholder="045***">
             </div>
             <div class="form-contact__box">
-              <label class="form-contact__label" for="">Subject</label>
-              <input class="form-contact__input" type="text" id="" placeholder="Cooperation request">
+              <label class="form-contact__label" for="[contact]subject">Subject</label>
+              <input class="form-contact__input" type="text" id="[contact]subject" name="[contact]subject"
+                placeholder="Cooperation request">
             </div>
           </div>
-
-          <label class="form-contact__label" for="">Message</label>
-          <textarea class="form-contact__textarea" name="" id="" cols="30" rows="10"
+          <label class="form-contact__label" for="[contact]message">Message</label>
+          <textarea class="form-contact__textarea" name="[contact]message" id="[contact]message" cols="30" rows="10"
             placeholder="Your message goes here..."></textarea>
-
           <div class="form-contact__action">
             <div class="form-contact__text"><span>*</span>required</div>
             <button class="form-contact__btn btn btn--dark" type="submit">send message</button>
@@ -337,148 +313,139 @@
               <a href="#">Orci non</a>
             </div>
           </div>
-
         </form>
-
-
       </div>
     </section>
 
-
-
-    <section class="cta  decor--red bg-blue">
-      <div class="cta__wrapper">
-        <div class="cta__img cta__img--left">
-          <span></span>
-          <img src="images/cta-img-left.png" alt="Image">
-        </div>
-        <div class="container">
-          <div class="cta__box">
-            <div class="title-block cta__title-block">
-              <div class="title-block__inner cta__title-block-inner">
-                <div class="title-block__label">beta</div>
-                <h2 class="title-block__title">Available now
-                  Pod of Cast App</h2>
-                <div class="title-block__text">
-                  <p>We just launched our podcast app!</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="cta__content">
-              <a class="btn btn--dark cta__btn" href="#">download now</a>
-              <p class="cta__text">Content also available on:</p>
-              <ul class="cta__list">
-                <li class="cta__item">
-                  <a class="cta__link" href="#">
-                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11 7.63623V11.2731V12.7267V16.3635H14.0001V12.7267V11.2731V7.63623H11Z" fill="black" />
-                      <path
-                        d="M2.00002 12.6821C2.82845 12.6821 3.50003 12.0106 3.50003 11.1821C3.50003 10.3537 2.82845 9.68213 2.00002 9.68213C1.17158 9.68213 0.5 10.3537 0.5 11.1821C0.5 12.0106 1.17158 12.6821 2.00002 12.6821Z"
-                        fill="black" />
-                      <path
-                        d="M2.00002 14.3179C2.82845 14.3179 3.50003 13.6463 3.50003 12.8179C3.50003 11.9894 2.82845 11.3179 2.00002 11.3179C1.17158 11.3179 0.5 11.9894 0.5 12.8179C0.5 13.6463 1.17158 14.3179 2.00002 14.3179Z" />
-                      <path d="M3.50003 11.1821H0.5V12.8185H3.50003V11.1821Z" />
-                      <path
-                        d="M23 14.3179C23.8285 14.3179 24.5 13.6463 24.5 12.8179C24.5 11.9894 23.8285 11.3179 23 11.3179C22.1716 11.3179 21.5 11.9894 21.5 12.8179C21.5 13.6463 22.1716 14.3179 23 14.3179Z"
-                        fill="black" />
-                      <path
-                        d="M23 12.6821C23.8285 12.6821 24.5 12.0106 24.5 11.1821C24.5 10.3537 23.8285 9.68213 23 9.68213C22.1716 9.68213 21.5 10.3537 21.5 11.1821C21.5 12.0106 22.1716 12.6821 23 12.6821Z"
-                        fill="black" />
-                      <path d="M21.5 12.8185H24.5V11.1821H21.5V12.8185Z" fill="black" />
-                      <path
-                        d="M7.18153 17.5913C8.00994 17.5913 8.68153 16.9198 8.68153 16.0913C8.68153 15.2629 8.00994 14.5913 7.18153 14.5913C6.35309 14.5913 5.68152 15.2629 5.68152 16.0913C5.68152 16.9198 6.35309 17.5913 7.18153 17.5913Z"
-                        fill="black" />
-                      <path
-                        d="M7.18153 19.2276C8.00994 19.2276 8.68153 18.5561 8.68153 17.7276C8.68153 16.8992 8.00994 16.2275 7.18153 16.2275C6.35309 16.2275 5.68152 16.8992 5.68152 17.7276C5.68152 18.5561 6.35309 19.2276 7.18153 19.2276Z"
-                        fill="black" />
-                      <path d="M8.68153 16.0913H5.68152V17.7277H8.68153V16.0913Z" fill="black" />
-                      <path
-                        d="M7.18153 7.77245C8.00994 7.77245 8.68153 7.10088 8.68153 6.27247C8.68153 5.44404 8.00994 4.77246 7.18153 4.77246C6.35309 4.77246 5.68152 5.44404 5.68152 6.27247C5.68152 7.10088 6.35309 7.77245 7.18153 7.77245Z"
-                        fill="black" />
-                      <path
-                        d="M7.18153 13.0903C8.00994 13.0903 8.68153 12.4188 8.68153 11.5903C8.68153 10.7619 8.00994 10.0903 7.18153 10.0903C6.35309 10.0903 5.68152 10.7619 5.68152 11.5903C5.68152 12.4188 6.35309 13.0903 7.18153 13.0903Z"
-                        fill="black" />
-                      <path d="M8.68153 6.27246H5.68152V11.6248H8.68153V6.27246Z" fill="black" />
-                      <path
-                        d="M17.8185 9.40968C18.6469 9.40968 19.3185 8.73811 19.3185 7.90968C19.3185 7.08124 18.6469 6.40967 17.8185 6.40967C16.9901 6.40967 16.3185 7.08124 16.3185 7.90968C16.3185 8.73811 16.9901 9.40968 17.8185 9.40968Z"
-                        fill="black" />
-                      <path
-                        d="M17.8185 7.77245C18.6469 7.77245 19.3185 7.10088 19.3185 6.27247C19.3185 5.44404 18.6469 4.77246 17.8185 4.77246C16.9901 4.77246 16.3185 5.44404 16.3185 6.27247C16.3185 7.10088 16.9901 7.77245 17.8185 7.77245Z"
-                        fill="black" />
-                      <path d="M16.3179 7.90882H19.3179V6.27246H16.3179V7.90882Z" fill="black" />
-                      <path
-                        d="M12.5 4.63624C13.3285 4.63624 14.0001 3.96467 14.0001 3.13624C14.0001 2.30781 13.3285 1.63623 12.5 1.63623C11.6716 1.63623 11 2.30781 11 3.13624C11 3.96467 11.6716 4.63624 12.5 4.63624Z"
-                        fill="black" />
-                      <path
-                        d="M12.5 3.00001C13.3285 3.00001 14.0001 2.32844 14.0001 1.50001C14.0001 0.671577 13.3285 0 12.5 0C11.6716 0 11 0.671577 11 1.50001C11 2.32844 11.6716 3.00001 12.5 3.00001Z"
-                        fill="black" />
-                      <path d="M11 3.13638H14.0001V1.5H11V3.13638Z" fill="black" />
-                      <path
-                        d="M12.5 24C13.3285 24 14.0001 23.3284 14.0001 22.5C14.0001 21.6716 13.3285 21 12.5 21C11.6716 21 11 21.6716 11 22.5C11 23.3284 11.6716 24 12.5 24Z"
-                        fill="black" />
-                      <path
-                        d="M12.5 22.3638C13.3285 22.3638 14.0001 21.6922 14.0001 20.8638C14.0001 20.0353 13.3285 19.3638 12.5 19.3638C11.6716 19.3638 11 20.0353 11 20.8638C11 21.6922 11.6716 22.3638 12.5 22.3638Z"
-                        fill="black" />
-                      <path d="M11 22.5001H14.0001V20.8638H11V22.5001Z" fill="black" />
-                      <path
-                        d="M17.8185 19.2276C18.6469 19.2276 19.3185 18.5561 19.3185 17.7276C19.3185 16.8992 18.6469 16.2275 17.8185 16.2275C16.9901 16.2275 16.3185 16.8992 16.3185 17.7276C16.3185 18.5561 16.9901 19.2276 17.8185 19.2276Z"
-                        fill="black" />
-                      <path
-                        d="M17.8185 13.9097C18.6469 13.9097 19.3185 13.2381 19.3185 12.4097C19.3185 11.5812 18.6469 10.9097 17.8185 10.9097C16.9901 10.9097 16.3185 11.5812 16.3185 12.4097C16.3185 13.2381 16.9901 13.9097 17.8185 13.9097Z"
-                        fill="black" />
-                      <path d="M16.3179 17.727H19.3179V12.4087H16.3179V17.727Z" fill="black" />
-                      <path
-                        d="M12.5 9.13628C13.3285 9.13628 14.0001 8.46464 14.0001 7.63627C14.0001 6.80783 13.3285 6.13623 12.5 6.13623C11.6716 6.13623 11 6.80783 11 7.63627C11 8.46464 11.6716 9.13628 12.5 9.13628Z"
-                        fill="black" />
-                      <path
-                        d="M12.5 17.8638C13.3285 17.8638 14.0001 17.1922 14.0001 16.3638C14.0001 15.5353 13.3285 14.8638 12.5 14.8638C11.6716 14.8638 11 15.5353 11 16.3638C11 17.1922 11.6716 17.8638 12.5 17.8638Z"
-                        fill="black" />
-                    </svg>
-
-                  </a>
-                </li>
-                <li class="cta__item">
-                  <a class="cta__link" href="#">
-                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_301_2672)">
-                        <path
-                          d="M12.5 0C10.1266 0 7.80654 0.70378 5.83313 2.02233C3.85979 3.34094 2.32173 5.21511 1.41342 7.40778C0.505187 9.60052 0.267552 12.0133 0.730606 14.3411C1.19359 16.6689 2.33646 18.807 4.01471 20.4853C5.69295 22.1635 7.83118 23.3064 10.1589 23.7694C12.4867 24.2324 14.8995 23.9948 17.0922 23.0865C19.2849 22.1783 21.1591 20.6402 22.4777 18.6668C23.7962 16.6935 24.5 14.3734 24.5 12C24.5 8.81738 23.2357 5.76516 20.9853 3.51474C18.7348 1.26425 15.6826 0 12.5 0ZM18.0068 17.3057C17.9557 17.3905 17.8883 17.4643 17.8085 17.5228C17.7286 17.5813 17.638 17.6234 17.5417 17.6465C17.4455 17.6697 17.3456 17.6735 17.2479 17.6577C17.1501 17.6419 17.0565 17.6069 16.9725 17.5547C14.1569 15.8308 10.6133 15.4477 6.43776 16.3959C6.34275 16.4185 6.24425 16.4221 6.14784 16.4064C6.0515 16.3906 5.95914 16.3559 5.87635 16.3043C5.79348 16.2526 5.72171 16.185 5.66517 16.1054C5.60862 16.0257 5.56855 15.9357 5.54712 15.8404C5.52429 15.7448 5.52066 15.6457 5.53623 15.5486C5.55186 15.4516 5.58642 15.3586 5.63801 15.275C5.6896 15.1914 5.75725 15.1188 5.8369 15.0613C5.91663 15.0039 6.00689 14.9627 6.10253 14.9401C10.6708 13.8962 14.5974 14.3464 17.7578 16.2809C17.9264 16.384 18.0473 16.5498 18.094 16.7418C18.1407 16.9339 18.1093 17.1367 18.0068 17.3057ZM19.4721 14.0399C19.3383 14.2458 19.1304 14.3923 18.8916 14.4494C18.6528 14.5064 18.4012 14.4695 18.1888 14.3464C14.5474 12.3151 10.2486 11.8122 6.23664 12.9481C6.11182 13.0177 5.97296 13.0585 5.83034 13.0674C5.68765 13.0764 5.54481 13.0533 5.41224 12.9998C5.27967 12.9464 5.16079 12.864 5.06424 12.7586C4.96769 12.6532 4.89592 12.5275 4.85425 12.3909C4.81257 12.2541 4.80203 12.1098 4.82339 11.9685C4.84475 11.8271 4.89746 11.6924 4.97767 11.5741C5.05788 11.4558 5.16358 11.357 5.28694 11.2848C5.41036 11.2127 5.54831 11.1691 5.69072 11.1572C7.93004 10.5126 10.2756 10.322 12.5896 10.5967C14.9036 10.8713 17.1394 11.6057 19.1656 12.7566C19.3715 12.8904 19.518 13.0982 19.5751 13.337C19.6321 13.5759 19.5952 13.8275 19.4721 14.0399ZM19.5966 10.6401C15.7658 8.34155 9.35878 8.13085 5.66203 9.25138C5.37755 9.33779 5.07038 9.30758 4.80817 9.16744C4.54596 9.02737 4.35015 8.78886 4.26379 8.50436C4.17743 8.21994 4.20759 7.91276 4.3477 7.65052C4.48774 7.38834 4.72628 7.19251 5.01076 7.10617C9.25343 5.82283 16.2925 6.07184 20.7459 8.70548C20.9748 8.86935 21.1337 9.11336 21.1909 9.38905C21.2481 9.66468 21.1994 9.95178 21.0546 10.1933C20.9097 10.4347 20.6793 10.6127 20.4092 10.6919C20.139 10.7712 19.8489 10.7458 19.5966 10.6209V10.6401Z"
-                          fill="black" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_301_2672">
-                          <rect width="24" height="24" fill="white" transform="translate(0.5)" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-
-                  </a>
-                </li>
-                <li class="cta__item">
-                  <a class="cta__link" href="#">
-                    <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M2.95835 0.735085C1.47296 0.808675 0.279778 1.97175 0.18338 3.45583C0.091023 4.87769 0 6.62724 0 8C0 9.37276 0.0910229 11.1223 0.18338 12.5442C0.279778 14.0283 1.47296 15.1913 2.95835 15.2649C5.10929 15.3715 8.1836 15.5 10.5 15.5C12.8164 15.5 15.8907 15.3715 18.0417 15.2649C19.527 15.1913 20.7202 14.0283 20.8166 12.5442C20.909 11.1223 21 9.37276 21 8C21 6.62724 20.909 4.8777 20.8166 3.45583C20.7202 1.97175 19.527 0.808675 18.0417 0.735085C15.8907 0.628521 12.8164 0.5 10.5 0.5C8.1836 0.5 5.10929 0.628521 2.95835 0.735085ZM14.25 8L8.25 11V5L14.25 8Z"
-                        fill="black" />
-                    </svg>
-
-                  </a>
-                </li>
-              </ul>
+   <section class="cta  decor--red bg-blue">
+  <div class="cta__wrapper">
+    <div class="cta__img cta__img--left">
+      <span></span>
+      <img src="images/cta-img-left.png" alt="Image">
+    </div>
+    <div class="container">
+      <div class="cta__box">
+        <div class="title-block cta__title-block">
+          <div class="title-block__inner cta__title-block-inner">
+            <div class="title-block__label">beta</div>
+            <h2 class="title-block__title">Available now
+              Pod of Cast App</h2>
+            <div class="title-block__text">
+              <p>We just launched our podcast app!</p>
             </div>
           </div>
         </div>
+        <div class="cta__content">
+          <a class="btn btn--dark cta__btn" href="#">download now</a>
+          <p class="cta__text">Content also available on:</p>
+          <ul class="cta__list">
+            <li class="cta__item">
+              <a class="cta__link" href="#">
+                <span class="sr-only">Google Podcasts</span>
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 7.63623V11.2731V12.7267V16.3635H14.0001V12.7267V11.2731V7.63623H11Z" fill="black" />
+                  <path
+                    d="M2.00002 12.6821C2.82845 12.6821 3.50003 12.0106 3.50003 11.1821C3.50003 10.3537 2.82845 9.68213 2.00002 9.68213C1.17158 9.68213 0.5 10.3537 0.5 11.1821C0.5 12.0106 1.17158 12.6821 2.00002 12.6821Z"
+                    fill="black" />
+                  <path
+                    d="M2.00002 14.3179C2.82845 14.3179 3.50003 13.6463 3.50003 12.8179C3.50003 11.9894 2.82845 11.3179 2.00002 11.3179C1.17158 11.3179 0.5 11.9894 0.5 12.8179C0.5 13.6463 1.17158 14.3179 2.00002 14.3179Z" />
+                  <path d="M3.50003 11.1821H0.5V12.8185H3.50003V11.1821Z" />
+                  <path
+                    d="M23 14.3179C23.8285 14.3179 24.5 13.6463 24.5 12.8179C24.5 11.9894 23.8285 11.3179 23 11.3179C22.1716 11.3179 21.5 11.9894 21.5 12.8179C21.5 13.6463 22.1716 14.3179 23 14.3179Z"
+                    fill="black" />
+                  <path
+                    d="M23 12.6821C23.8285 12.6821 24.5 12.0106 24.5 11.1821C24.5 10.3537 23.8285 9.68213 23 9.68213C22.1716 9.68213 21.5 10.3537 21.5 11.1821C21.5 12.0106 22.1716 12.6821 23 12.6821Z"
+                    fill="black" />
+                  <path d="M21.5 12.8185H24.5V11.1821H21.5V12.8185Z" fill="black" />
+                  <path
+                    d="M7.18153 17.5913C8.00994 17.5913 8.68153 16.9198 8.68153 16.0913C8.68153 15.2629 8.00994 14.5913 7.18153 14.5913C6.35309 14.5913 5.68152 15.2629 5.68152 16.0913C5.68152 16.9198 6.35309 17.5913 7.18153 17.5913Z"
+                    fill="black" />
+                  <path
+                    d="M7.18153 19.2276C8.00994 19.2276 8.68153 18.5561 8.68153 17.7276C8.68153 16.8992 8.00994 16.2275 7.18153 16.2275C6.35309 16.2275 5.68152 16.8992 5.68152 17.7276C5.68152 18.5561 6.35309 19.2276 7.18153 19.2276Z"
+                    fill="black" />
+                  <path d="M8.68153 16.0913H5.68152V17.7277H8.68153V16.0913Z" fill="black" />
+                  <path
+                    d="M7.18153 7.77245C8.00994 7.77245 8.68153 7.10088 8.68153 6.27247C8.68153 5.44404 8.00994 4.77246 7.18153 4.77246C6.35309 4.77246 5.68152 5.44404 5.68152 6.27247C5.68152 7.10088 6.35309 7.77245 7.18153 7.77245Z"
+                    fill="black" />
+                  <path
+                    d="M7.18153 13.0903C8.00994 13.0903 8.68153 12.4188 8.68153 11.5903C8.68153 10.7619 8.00994 10.0903 7.18153 10.0903C6.35309 10.0903 5.68152 10.7619 5.68152 11.5903C5.68152 12.4188 6.35309 13.0903 7.18153 13.0903Z"
+                    fill="black" />
+                  <path d="M8.68153 6.27246H5.68152V11.6248H8.68153V6.27246Z" fill="black" />
+                  <path
+                    d="M17.8185 9.40968C18.6469 9.40968 19.3185 8.73811 19.3185 7.90968C19.3185 7.08124 18.6469 6.40967 17.8185 6.40967C16.9901 6.40967 16.3185 7.08124 16.3185 7.90968C16.3185 8.73811 16.9901 9.40968 17.8185 9.40968Z"
+                    fill="black" />
+                  <path
+                    d="M17.8185 7.77245C18.6469 7.77245 19.3185 7.10088 19.3185 6.27247C19.3185 5.44404 18.6469 4.77246 17.8185 4.77246C16.9901 4.77246 16.3185 5.44404 16.3185 6.27247C16.3185 7.10088 16.9901 7.77245 17.8185 7.77245Z"
+                    fill="black" />
+                  <path d="M16.3179 7.90882H19.3179V6.27246H16.3179V7.90882Z" fill="black" />
+                  <path
+                    d="M12.5 4.63624C13.3285 4.63624 14.0001 3.96467 14.0001 3.13624C14.0001 2.30781 13.3285 1.63623 12.5 1.63623C11.6716 1.63623 11 2.30781 11 3.13624C11 3.96467 11.6716 4.63624 12.5 4.63624Z"
+                    fill="black" />
+                  <path
+                    d="M12.5 3.00001C13.3285 3.00001 14.0001 2.32844 14.0001 1.50001C14.0001 0.671577 13.3285 0 12.5 0C11.6716 0 11 0.671577 11 1.50001C11 2.32844 11.6716 3.00001 12.5 3.00001Z"
+                    fill="black" />
+                  <path d="M11 3.13638H14.0001V1.5H11V3.13638Z" fill="black" />
+                  <path
+                    d="M12.5 24C13.3285 24 14.0001 23.3284 14.0001 22.5C14.0001 21.6716 13.3285 21 12.5 21C11.6716 21 11 21.6716 11 22.5C11 23.3284 11.6716 24 12.5 24Z"
+                    fill="black" />
+                  <path
+                    d="M12.5 22.3638C13.3285 22.3638 14.0001 21.6922 14.0001 20.8638C14.0001 20.0353 13.3285 19.3638 12.5 19.3638C11.6716 19.3638 11 20.0353 11 20.8638C11 21.6922 11.6716 22.3638 12.5 22.3638Z"
+                    fill="black" />
+                  <path d="M11 22.5001H14.0001V20.8638H11V22.5001Z" fill="black" />
+                  <path
+                    d="M17.8185 19.2276C18.6469 19.2276 19.3185 18.5561 19.3185 17.7276C19.3185 16.8992 18.6469 16.2275 17.8185 16.2275C16.9901 16.2275 16.3185 16.8992 16.3185 17.7276C16.3185 18.5561 16.9901 19.2276 17.8185 19.2276Z"
+                    fill="black" />
+                  <path
+                    d="M17.8185 13.9097C18.6469 13.9097 19.3185 13.2381 19.3185 12.4097C19.3185 11.5812 18.6469 10.9097 17.8185 10.9097C16.9901 10.9097 16.3185 11.5812 16.3185 12.4097C16.3185 13.2381 16.9901 13.9097 17.8185 13.9097Z"
+                    fill="black" />
+                  <path d="M16.3179 17.727H19.3179V12.4087H16.3179V17.727Z" fill="black" />
+                  <path
+                    d="M12.5 9.13628C13.3285 9.13628 14.0001 8.46464 14.0001 7.63627C14.0001 6.80783 13.3285 6.13623 12.5 6.13623C11.6716 6.13623 11 6.80783 11 7.63627C11 8.46464 11.6716 9.13628 12.5 9.13628Z"
+                    fill="black" />
+                  <path
+                    d="M12.5 17.8638C13.3285 17.8638 14.0001 17.1922 14.0001 16.3638C14.0001 15.5353 13.3285 14.8638 12.5 14.8638C11.6716 14.8638 11 15.5353 11 16.3638C11 17.1922 11.6716 17.8638 12.5 17.8638Z"
+                    fill="black" />
+                </svg>
 
-        <div class="cta__img cta__img--right">
-          <img src="images/cta-img-right.png" alt="Image" width="694">
+              </a>
+            </li>
+            <li class="cta__item">
+              <a class="cta__link" href="#">
+                <span class="sr-only">Spotify</span>
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_301_2672)">
+                    <path
+                      d="M12.5 0C10.1266 0 7.80654 0.70378 5.83313 2.02233C3.85979 3.34094 2.32173 5.21511 1.41342 7.40778C0.505187 9.60052 0.267552 12.0133 0.730606 14.3411C1.19359 16.6689 2.33646 18.807 4.01471 20.4853C5.69295 22.1635 7.83118 23.3064 10.1589 23.7694C12.4867 24.2324 14.8995 23.9948 17.0922 23.0865C19.2849 22.1783 21.1591 20.6402 22.4777 18.6668C23.7962 16.6935 24.5 14.3734 24.5 12C24.5 8.81738 23.2357 5.76516 20.9853 3.51474C18.7348 1.26425 15.6826 0 12.5 0ZM18.0068 17.3057C17.9557 17.3905 17.8883 17.4643 17.8085 17.5228C17.7286 17.5813 17.638 17.6234 17.5417 17.6465C17.4455 17.6697 17.3456 17.6735 17.2479 17.6577C17.1501 17.6419 17.0565 17.6069 16.9725 17.5547C14.1569 15.8308 10.6133 15.4477 6.43776 16.3959C6.34275 16.4185 6.24425 16.4221 6.14784 16.4064C6.0515 16.3906 5.95914 16.3559 5.87635 16.3043C5.79348 16.2526 5.72171 16.185 5.66517 16.1054C5.60862 16.0257 5.56855 15.9357 5.54712 15.8404C5.52429 15.7448 5.52066 15.6457 5.53623 15.5486C5.55186 15.4516 5.58642 15.3586 5.63801 15.275C5.6896 15.1914 5.75725 15.1188 5.8369 15.0613C5.91663 15.0039 6.00689 14.9627 6.10253 14.9401C10.6708 13.8962 14.5974 14.3464 17.7578 16.2809C17.9264 16.384 18.0473 16.5498 18.094 16.7418C18.1407 16.9339 18.1093 17.1367 18.0068 17.3057ZM19.4721 14.0399C19.3383 14.2458 19.1304 14.3923 18.8916 14.4494C18.6528 14.5064 18.4012 14.4695 18.1888 14.3464C14.5474 12.3151 10.2486 11.8122 6.23664 12.9481C6.11182 13.0177 5.97296 13.0585 5.83034 13.0674C5.68765 13.0764 5.54481 13.0533 5.41224 12.9998C5.27967 12.9464 5.16079 12.864 5.06424 12.7586C4.96769 12.6532 4.89592 12.5275 4.85425 12.3909C4.81257 12.2541 4.80203 12.1098 4.82339 11.9685C4.84475 11.8271 4.89746 11.6924 4.97767 11.5741C5.05788 11.4558 5.16358 11.357 5.28694 11.2848C5.41036 11.2127 5.54831 11.1691 5.69072 11.1572C7.93004 10.5126 10.2756 10.322 12.5896 10.5967C14.9036 10.8713 17.1394 11.6057 19.1656 12.7566C19.3715 12.8904 19.518 13.0982 19.5751 13.337C19.6321 13.5759 19.5952 13.8275 19.4721 14.0399ZM19.5966 10.6401C15.7658 8.34155 9.35878 8.13085 5.66203 9.25138C5.37755 9.33779 5.07038 9.30758 4.80817 9.16744C4.54596 9.02737 4.35015 8.78886 4.26379 8.50436C4.17743 8.21994 4.20759 7.91276 4.3477 7.65052C4.48774 7.38834 4.72628 7.19251 5.01076 7.10617C9.25343 5.82283 16.2925 6.07184 20.7459 8.70548C20.9748 8.86935 21.1337 9.11336 21.1909 9.38905C21.2481 9.66468 21.1994 9.95178 21.0546 10.1933C20.9097 10.4347 20.6793 10.6127 20.4092 10.6919C20.139 10.7712 19.8489 10.7458 19.5966 10.6209V10.6401Z"
+                      fill="black" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_301_2672">
+                      <rect width="24" height="24" fill="white" transform="translate(0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              </a>
+            </li>
+            <li class="cta__item">
+              <a class="cta__link" href="#">
+                <span class="sr-only">Youtube</span>
+                <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2.95835 0.735085C1.47296 0.808675 0.279778 1.97175 0.18338 3.45583C0.091023 4.87769 0 6.62724 0 8C0 9.37276 0.0910229 11.1223 0.18338 12.5442C0.279778 14.0283 1.47296 15.1913 2.95835 15.2649C5.10929 15.3715 8.1836 15.5 10.5 15.5C12.8164 15.5 15.8907 15.3715 18.0417 15.2649C19.527 15.1913 20.7202 14.0283 20.8166 12.5442C20.909 11.1223 21 9.37276 21 8C21 6.62724 20.909 4.8777 20.8166 3.45583C20.7202 1.97175 19.527 0.808675 18.0417 0.735085C15.8907 0.628521 12.8164 0.5 10.5 0.5C8.1836 0.5 5.10929 0.628521 2.95835 0.735085ZM14.25 8L8.25 11V5L14.25 8Z"
+                    fill="black" />
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-
-
-
-    </section>
-
+    </div>
+    <div class="cta__img cta__img--right">
+      <img src="images/cta-img-right.png" alt="Image" width="694">
+    </div>
+  </div>
+</section>
 
   </main>
 
@@ -495,16 +462,17 @@
         <ul class="social">
           <li class="social__item">
             <a class="social__link" href="#">
+              <span class="sr-only">Twitter</span>
               <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M6.84156 18C4.41531 18 2.15363 17.2943 0.25 16.0767C1.86624 16.1813 4.71855 15.9308 6.49268 14.2386C3.82381 14.1161 2.6202 12.0692 2.4632 11.1945C2.68997 11.2819 3.77148 11.3869 4.382 11.142C1.31192 10.3722 0.840946 7.67799 0.945608 6.85573C1.52125 7.25811 2.49809 7.39807 2.88185 7.36308C0.0210947 5.31618 1.05027 2.23707 1.55613 1.57226C3.60912 4.4165 6.6859 6.01393 10.4923 6.10278C10.4205 5.78802 10.3826 5.46032 10.3826 5.12373C10.3826 2.70819 12.3351 0.75 14.7435 0.75C16.0019 0.75 17.1358 1.28457 17.9318 2.13963C18.7727 1.94258 20.0382 1.4813 20.6569 1.0824C20.3451 2.20208 19.3742 3.13612 18.7869 3.48231C18.7821 3.47048 18.7918 3.49408 18.7869 3.48231C19.3028 3.40428 20.6986 3.13603 21.25 2.76192C20.9773 3.39094 19.948 4.4368 19.1033 5.02232C19.2605 11.9535 13.9574 18 6.84156 18Z"
                   fill="black" />
               </svg>
-
             </a>
           </li>
           <li class="social__item">
             <a class="social__link" href="#">
+              <span class="sr-only">Instagram</span>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M16.5333 4.8665C16.5333 5.6397 15.9065 6.2665 15.1333 6.2665C14.3601 6.2665 13.7333 5.6397 13.7333 4.8665C13.7333 4.09331 14.3601 3.4665 15.1333 3.4665C15.9065 3.4665 16.5333 4.09331 16.5333 4.8665Z"
@@ -516,12 +484,11 @@
                   d="M0.666672 9.6265C0.666672 6.49021 0.666672 4.92206 1.27704 3.72416C1.81393 2.67045 2.67062 1.81376 3.72433 1.27687C4.92223 0.666504 6.49038 0.666504 9.62667 0.666504H10.3733C13.5096 0.666504 15.0778 0.666504 16.2757 1.27687C17.3294 1.81376 18.1861 2.67045 18.723 3.72416C19.3333 4.92206 19.3333 6.49021 19.3333 9.6265V10.3732C19.3333 13.5095 19.3333 15.0776 18.723 16.2755C18.1861 17.3292 17.3294 18.1859 16.2757 18.7228C15.0778 19.3332 13.5096 19.3332 10.3733 19.3332H9.62667C6.49038 19.3332 4.92223 19.3332 3.72433 18.7228C2.67062 18.1859 1.81393 17.3292 1.27704 16.2755C0.666672 15.0776 0.666672 13.5095 0.666672 10.3732V9.6265ZM9.62667 2.53317H10.3733C11.9723 2.53317 13.0592 2.53462 13.8994 2.60327C14.7178 2.67013 15.1363 2.79133 15.4282 2.94008C16.1307 3.29801 16.7018 3.86913 17.0598 4.57161C17.2085 4.86355 17.3297 5.28207 17.3966 6.10044C17.4652 6.94061 17.4667 8.02756 17.4667 9.6265V10.3732C17.4667 11.9721 17.4652 13.0591 17.3966 13.8992C17.3297 14.7176 17.2085 15.1361 17.0598 15.4281C16.7018 16.1305 16.1307 16.7017 15.4282 17.0596C15.1363 17.2084 14.7178 17.3295 13.8994 17.3964C13.0592 17.4651 11.9723 17.4665 10.3733 17.4665H9.62667C8.02772 17.4665 6.94078 17.4651 6.10061 17.3964C5.28223 17.3295 4.86372 17.2084 4.57177 17.0596C3.8693 16.7017 3.29817 16.1305 2.94025 15.4281C2.79149 15.1361 2.6703 14.7176 2.60343 13.8992C2.53479 13.0591 2.53334 11.9721 2.53334 10.3732V9.6265C2.53334 8.02756 2.53479 6.94061 2.60343 6.10044C2.6703 5.28207 2.79149 4.86355 2.94025 4.57161C3.29817 3.86913 3.8693 3.29801 4.57177 2.94008C4.86372 2.79133 5.28223 2.67013 6.10061 2.60327C6.94078 2.53462 8.02772 2.53317 9.62667 2.53317Z"
                   fill="black" />
               </svg>
-
-
             </a>
           </li>
           <li class="social__item">
             <a class="social__link" href="#">
+              <span class="sr-only">Tiktok</span>
               <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M3.33812 12.8444C3.45533 11.8739 3.85333 11.3306 4.60335 10.7736C5.67649 10.0193 7.01701 10.446 7.01701 10.446V7.91462C7.3429 7.90629 7.66892 7.92561 7.99126 7.97234V11.23C7.99126 11.23 6.65116 10.8033 5.57801 11.558C4.8284 12.1146 4.42958 12.6583 4.31278 13.6287C4.30912 14.1557 4.40801 14.8445 4.8634 15.4401C4.75081 15.3824 4.63604 15.3166 4.51911 15.2427C3.51596 14.5691 3.33324 13.5585 3.33812 12.8444ZM13.5263 3.23411C12.7881 2.42517 12.5089 1.60842 12.408 1.03467H13.3366C13.3366 1.03467 13.1515 2.53906 14.5009 4.01849L14.5197 4.03838C14.156 3.8096 13.8224 3.53956 13.5263 3.23411ZM17.9999 5.52756V8.71967C17.9999 8.71967 16.8149 8.67325 15.9379 8.45015C14.7134 8.13811 13.9263 7.65953 13.9263 7.65953C13.9263 7.65953 13.3826 7.31824 13.3387 7.29445V13.8862C13.3387 14.2532 13.2382 15.1698 12.9317 15.9343C12.5317 16.9343 11.9143 17.5908 11.8008 17.725C11.8008 17.725 11.0499 18.6123 9.7253 19.2098C8.53129 19.7489 7.48297 19.7352 7.16962 19.7489C7.16962 19.7489 5.35744 19.8207 3.72677 18.7609C3.37415 18.5273 3.04499 18.2628 2.74356 17.9707L2.7517 17.9765C4.38278 19.0363 6.19455 18.9645 6.19455 18.9645C6.50831 18.9509 7.55663 18.9645 8.75024 18.4255C10.0737 17.8279 10.8257 16.9406 10.8257 16.9406C10.938 16.8064 11.5582 16.15 11.9566 15.1495C12.2623 14.3854 12.3636 13.4684 12.3636 13.1014V6.51047C12.4076 6.53465 12.9508 6.87594 12.9508 6.87594C12.9508 6.87594 13.7383 7.35491 14.9628 7.66655C15.8402 7.88966 17.0249 7.93607 17.0249 7.93607V5.43473C17.4302 5.52561 17.7757 5.55018 17.9999 5.52756Z"
@@ -538,12 +505,9 @@
                   d="M12.408 1.03476H9.96623V13.4619C9.96623 13.8987 9.96623 14.32 9.81484 14.7408C9.56822 15.4125 9.04366 16.019 8.34451 16.2881C7.29497 16.6922 6.47454 16.6474 5.49581 16.0276C5.25285 15.8673 5.03917 15.6696 4.8634 15.4425C5.69726 15.8688 6.44361 15.8614 7.36822 15.5057C8.06696 15.2366 8.59234 14.6301 8.83814 13.958C8.99197 13.5383 8.98994 13.1159 8.98994 12.6795V0.25H12.3616C12.3616 0.25 12.3237 0.558913 12.408 1.03476ZM17.0253 4.74328V5.43483C16.6295 5.34447 16.2458 5.21085 15.8817 5.0366C15.1765 4.69921 14.6271 4.14964 14.5197 4.03848C14.6443 4.11693 14.7737 4.1883 14.9071 4.25222C15.7645 4.66255 16.609 4.78502 17.0253 4.74328Z"
                   fill="black" />
               </svg>
-
-
             </a>
           </li>
         </ul>
-
       </div>
       <ul class="footer__menu">
         <li class="footer__menu-item">
@@ -571,25 +535,38 @@
         </div>
         <ul class="footer__platform-list">
           <li class="footer__platform-item">
-            <img src="images/platform-icons/google_podcast.svg" alt="Google Podcast" width="122" height="22">
+            <a class="footer__platform-link" href="#">
+              <span class="sr-only">Google Podcasts</span>
+              <img src="images/platform-icons/google_podcast.svg" alt="Google Podcast" width="122" height="22">
+            </a>
           </li>
           <li class="footer__platform-item">
-            <img src="images/platform-icons/spotify.svg" alt="Spotify" width="80" height="22">
+            <a class="footer__platform-link" href="#">
+              <span class="sr-only">Spotify</span>
+              <img src="images/platform-icons/spotify.svg" alt="Spotify" width="80" height="22">
+            </a>
           </li>
           <li class="footer__platform-item">
-            <img src="images/platform-icons/youtube.svg" alt="Youtube" width="94" height="22">
+            <a class="footer__platform-link" href="#">
+              <span class="sr-only">Youtube</span>
+              <img src="images/platform-icons/youtube.svg" alt="Youtube" width="94" height="22">
           </li>
+          </a>
         </ul>
-
         <div class="footer__app-text">
           App available on:
         </div>
         <div class="footer__app-box">
-          <img src="images/platform-icons/appstore.svg" alt="Appstore">
-          <img src="images/platform-icons/google_play.svg" alt="Google Play">
+          <a class="footer__platform-link" href="#">
+            <span class="sr-only">App Store</span>
+            <img src="images/platform-icons/appstore.svg" alt="Appstore">
+          </a>
+          <a class="footer__platform-link" href="#">
+            <span class="sr-only">Google Play</span>
+            <img src="images/platform-icons/google_play.svg" alt="Appstore">
+          </a>
         </div>
       </div>
-
     </div>
     <div class="footer__copy">
       <div class="footer__copy-text">
@@ -606,7 +583,6 @@
     </div>
   </div>
 </footer>
-
 
     <script src="js/main.min.js"></script>
 </body>
